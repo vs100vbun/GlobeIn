@@ -10,50 +10,109 @@
 </head>
 <body>
     <div class="wrap">
-        <header class="header">
-            <div class="header-container">
-                <div class="header-navbar">
-                    <div class="left">
-                        <div class="header-navbar__logo">
-                            <img src="img/header/logo-bg.png" alt="Logo" class="logo">
+        <div class="header-slider">
+            <div><header class="header">
+                <div class="header-container">
+                    <div class="header-navbar">
+                        <div class="left">
+                            <div class="header-navbar__logo">
+                                <img src="img/header/logo-bg.png" alt="Logo" class="logo">
+                                <div class="border-line"></div>
+                            </div>
+                            <nav class="header-navbar__nav link-style">
+                                <ul>
+                                    <li class="header-navbar__links"><a href="#">Subscription</a></li>
+                                    <li class="header-navbar__links"><a href="#">Shop</a></li>
+                                    <li class="header-navbar__links"><a href="#">Gift</a></li>
+                                    <li class="header-navbar__links"><a href="#">Impact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
                             <div class="border-line"></div>
-                        </div>
-                        <nav class="header-navbar__nav link-style">
-                            <ul>
-                                <li class="header-navbar__links"><a href="#">Subscription</a></li>
-                                <li class="header-navbar__links"><a href="#">Shop</a></li>
-                                <li class="header-navbar__links"><a href="#">Gift</a></li>
-                                <li class="header-navbar__links"><a href="#">Impact</a></li>
-                            </ul>
-                        </nav>
+                            <div class="header-navbar__signup link-style">
+                                <ul>
+                                    <li><a href="#">Sign up</a></li>
+                                </ul>
+                            </div>
                     </div>
-                    <div class="right">
-                        <div class="border-line"></div>
-                        <div class="header-navbar__signup link-style">
-                            <ul>
-                                <li><a href="#">Sign up</a></li>
+                    </div>
+                    <div class="header-hero">
+                        <div class="header-hero__title">Experience the world at home each month</div>
+                        <div class="header-hero__subtitle">Discover unique, ethically-sourced home goods, while supporting artisans all over the world</div>
+                        <div class="header-hero__btn"><a href="#" class="btn">Get Started</a></div>
+                        <div class="header-hero__text">
+                            <p class="title">From only $33/month<span class="red">*</span></p>
+                            <p class="subtitle">If you pay annually</p>
+                        </div>
+                        <div class="header-hero__dots">
+                            <ul class="slick-dots">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </div>
-                </div>
-                </div>
-                <div class="header-hero">
-                    <div class="header-hero__title">Experience the world at home each month</div>
-                    <!-- /.header-hero__title -->
-                    <div class="header-hero__subtitle">Discover unique, ethically-sourced home goods, while supporting artisans all over the world</div>
-                    <!-- /.header-hero__subtitle -->
-                    <div class="header-hero__btn"><a href="#" class="btn">Get Started</a><!-- /.btn --></div>
-                    <!-- /.header-hero__btn -->
-                    <div class="header-hero__text">
-                        <p class="title">From only $33/month<span class="red">*</span></p>
-                        <p class="subtitle">If you pay annually</p>
                     </div>
-                    <div class="header-hero__dots"></div>
                 </div>
-            </div>
-        </header>
+            </header></div>
+            <div>
+                <header class="header2">
+                <div class="header-container">
+                    <div class="header-navbar">
+                        <div class="left">
+                            <div class="header-navbar__logo">
+                                <img src="img/header/logo-bg.png" alt="Logo" class="logo">
+                                <div class="border-line"></div>
+                            </div>
+                            <nav class="header-navbar__nav link-style">
+                                <ul>
+                                    <li class="header-navbar__links"><a href="#">Subscription</a></li>
+                                    <li class="header-navbar__links"><a href="#">Shop</a></li>
+                                    <li class="header-navbar__links"><a href="#">Gift</a></li>
+                                    <li class="header-navbar__links"><a href="#">Impact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <div class="border-line"></div>
+                            <div class="header-navbar__signup link-style">
+                                <ul>
+                                    <li><a href="#">Sign up</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="header-hero">
+                        <div class="header-hero__title">Experience the world at home each month</div>
+                        <div class="header-hero__subtitle">Discover unique, ethically-sourced home goods, while supporting artisans all over the world</div>
+                        <div class="header-hero__btn"><a href="#" class="btn">Get Started</a></div>
+                        <div class="header-hero__text">
+                            <p class="title">From only $33/month<span class="red">*</span></p>
+                            <p class="subtitle">If you pay annually</p>
+                        </div>
+                        <div class="header-hero__dots"></div>
+                    </div>
+                </div>
+            </header>
+        </div>
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+          </div>
+        
     </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script src="js/slick.js"></script>
+<script>
+      $(document).ready(function(){
+      $('.header-slider').slick({
+        arrows: false,
+        dots: false,
+      });
+    });
+</script>
 </body>
 </html>
