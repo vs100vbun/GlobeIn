@@ -1,134 +1,323 @@
-.statistics-section
-    margin-top: 150px
-    width: 100%
-    height: 900px
-    background: url('../../img/statistics/bg.png')
+.statistics
+    background: url(../../img/statistics/statistics-bg-mob.png)
     background-repeat: no-repeat
     background-size: cover
-    background-position: center center
-    .statistics-container
-        width: 100%
-        max-width: 1400px
-        margin: 0 auto
-        .statistics-header
-            width: 100%
-            max-width: 1370px
-            display: flex
-            justify-content: space-between
-            .statistics-title
-                margin-top: 98px
-                max-width: 415px
-                font-family: SangBleu Sunrise
-                font-style: normal
-                font-weight: 700
-                font-size: 44px
-                line-height: 60px
-                letter-spacing: -0.01em
-                color: $mainColor
-            .statistics-subtitle
-                margin-top: 106px
-                max-width: 270px
-                font-family: TT Commons
-                font-style: normal
-                font-weight: normal
-                font-size: 28px
-                line-height: 34px
-                letter-spacing: -0.32px
-                color: $secondColor
-            .statistics-text
-                margin-top: 112px
-                width: 530px
-                font-family: TT Commons
-                font-style: normal
-                font-weight: normal
-                font-size: 22px
-                line-height: 30px
-                color: $thirdColor
-        .statistics-content
-            height: 280px
-            .border-line1
-                margin-top: 82px
-                height: 0px
-                max-width: 1400px
-                width: 100%
-                opacity: 0.1
-                border: 1px solid #000000
-            .border-line2
-                margin-top: 53px
-                height: 0px
-                max-width: 1400px
-                width: 100%
-                opacity: 0.1
-                border: 1px solid #000000
-            .statistics-more__than
-                max-width: 438px
-                margin: 0 auto
-                margin-top: 50px
-                display: flex
-                justify-content: space-between
-                font-family: TT Commons
-                font-style: normal
-                font-weight: normal
-                font-size: 16px
-                line-height: 28px
-                text-transform: uppercase
-                color: $thirdColor
-            .statistics-item__box
-                margin-top: 26px
-                height: 119px
-                display: flex
-                justify-content: space-between
-                .title
-                    font-family: TT Commons
-                    font-style: normal
-                    font-weight: normal
-                    font-size: 46px
-                    line-height: 36px
-                    letter-spacing: -0.32px
-                    color: $mainColor
-                .text
-                    font-family: TT Commons
-                    font-style: normal
-                    font-weight: normal
-                    font-size: 22px
-                    line-height: 30px
-                    color: $thirdColor
-                .statistics-item
-                    text-align: center
-                    display: flex
-                    flex-direction: column
-                    justify-content: space-between
-        .statistics-btn
-            margin-top: 80px
-            display: flex
-            max-width: 920px
-            justify-content: space-between
-            .text
-                max-width: 415px
-                font-family: TT Commons
-                font-style: normal
-                font-weight: normal
-                font-size: 28px
-                line-height: 34px
-                letter-spacing: -0.32px
-                color: $secondColor
-            .btn
-                margin-top: 23px
-                a 
-                    background: $btnColor
-                    font-family: TT Commons
-                    font-style: normal
-                    font-weight: normal
-                    font-size: 24px
-                    line-height: 28px
-                    text-align: center
-                    letter-spacing: -0.32px
-                    border-radius: 8px
-                    text-decoration: none
-                    padding: 22px 125px 
-                    color: $whiteColor
+    background-position: center
+    width: 100%
+    height: 940px
+    margin-top: 21.7%
 
-.statistics-item
-    width: 260px
-.statistics-item1
-    width: 280px
+.statistics-container
+    width: 90px
+    min-width: 340px 
+    margin: 0 auto
+
+.statistics__title
+    width: 70%
+    margin: 0 auto
+    padding-top: 21%    
+    font-family: SangBleu Sunrise
+    font-style: normal
+    font-weight: 700
+    font-size: 20px
+    line-height: 29px
+    text-align: center
+    letter-spacing: -0.01em
+    color: #574141
+
+.statistics__subtitle
+    width: 70%
+    margin: 0 auto
+    padding-top: 7%
+    font-family: SangBleu Sunrise
+    font-style: normal
+    font-weight: 700
+    font-size: 14px
+    line-height: 20px
+    text-align: center
+    color: $mainColor
+
+.statistics__info
+    padding-top: 10%
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    letter-spacing: 0.066px
+    color: $thirdColor
+
+.statistics__border-line-wrap-top
+    padding-top: 15%
+
+.statistics__border-line-wrap-bot
+    padding-top: 9%
+
+.statistics__border-line
+    opacity: 0.1
+    border: 1px solid #000000
+    width: 100%
+    margin: 0 auto
+
+.statistics__more-than
+    display: none
+
+.statistics__more-than-text
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 28px
+    text-transform: uppercase
+    color: $thirdColor
+
+.statistics__item-title
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 28px
+    letter-spacing: -0.32px
+    color: $mainColor
+
+.statistics__item-subtitle
+    height: 60%
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: 0.066px
+    color: $thirdColor
+
+.statistics__more-than-text
+    font-size: 16px
+    line-height: 28px
+    text-align: center
+
+.statistics__btn-text
+    font-family: TT Commons
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 24px
+    text-align: center
+    color: $mainColor
+    width: 70%
+    margin: 0 auto
+
+.statistics__item-box
+    margin: 0 auto
+    margin-top: 12%
+    display: flex
+    flex-wrap: wrap 
+    justify-content: space-between
+
+.statistics__item
+    width: 40%
+    height: 90px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    
+.statistics__item_position
+    transform: translateX(-9%)
+
+.statistics__more-than-responsive
+    margin-top: 15%
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+.statistics__more-than-text
+    width: 44%
+
+.statistics__item-subtitle_width
+    width: 90%
+
+.statistics__btn-section
+    margin-top: 10%
+    height: 113px   
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+.statistics__btn
+    background: $btnColor
+    padding: 15px 91px
+    text-decoration: none
+    border-radius: 8px
+    color: #fff
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 19px
+    line-height: 26px
+    letter-spacing: -0.078px
+.statistics__btn:hover 
+    box-shadow: 0px 20px 45px rgba(255, 134, 129, 0.25)
+
+@media screen and (min-width: 759px)
+    .statistics
+        background: url(../../img/statistics/statistics-bg-tab.png)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        width: 100%
+        height: 1099px
+        margin-top: 12%
+
+    .statistics-container
+        width: 90px
+        min-width: 760px
+        margin: 0 auto
+
+    .statistics__title
+        padding-top: 9.5%   
+        font-size: 28px
+        line-height: 40px
+        font-weight: 700
+        width: 80%
+    .statistics__subtitle
+        font-weight: 500
+        font-size: 20px
+        line-height: 29px
+        padding-top: 3.5%
+    .statistics__info
+        font-size: 19px
+        line-height: 26px
+        letter-spacing: -0.078px
+        width: 65%
+        margin: 0 auto
+        padding-top: 4.5%
+    .statistics__border-line
+        width: 81%
+
+    .statistics__border-line-wrap-top
+        padding-top: 6%
+
+    .statistics__numbers
+        width: 80%
+        margin: 0 auto
+        margin-top: -1%
+    
+    .statistics__item
+        display: flex
+        align-items: center
+        height: 150px
+
+    .statistics__item-title
+        font-size: 36px;
+        line-height: 36px
+        letter-spacing: -0.32px
+    .statistics__item-subtitle
+        font-size: 19px
+        line-height: 26px
+        text-align: center
+        letter-spacing: -0.078px
+
+    .statistics__more-than-responsive
+        margin-top: 6%
+        padding-bottom: 2%
+
+    .statistics__more-than-text
+        transform: translateX(-3%)
+
+    .statistics__item-subtitle_width
+        width: 73%
+    .statistics__item-subtitle_width1
+        width: 112%
+    .statistics__item-subtitle_width2
+        width: 79%
+
+    .statistics__border-line-wrap-bot
+        padding-top: 2.5%
+
+    .statistics__btn-text
+        font-weight: 500
+        font-size: 19px
+        line-height: 26px
+        text-align: center
+        letter-spacing: -0.078px
+
+    .statistics__btn-section
+        margin-top: 5.5%
+        height: 110px 
+
+    .statistics__btn-box
+        margin: 0 auto
+        
+    .statistics__btn
+        background: $btnColor
+        padding: 19px 142px
+        text-decoration: none
+        border-radius: 8px
+        color: #fff
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 19px
+        line-height: 26px
+        letter-spacing: -0.078px
+    .statistics__btn:hover 
+        box-shadow: 0px 20px 45px rgba(255, 134, 129, 0.25)
+
+@media screen and (min-width: 1920px)
+    .statistics
+        background: url(../../img/statistics/statistics-bg.png)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        width: 100%
+        height: 900px
+        margin-top: 8%
+
+    .statistics__text
+        display: flex
+
+    .statistics__item-box
+        flex-wrap: nowrap
+
+    .statistics__more-than-responsive
+        display: none
+    
+    .statistics__more-than
+        display: inline
+        display: flex
+
+    .statistics-container
+        width: 90px
+        min-width: 1400px
+        margin: 0 auto
+
+    .statistics__title
+        margin-top: 7%
+        margin-left: 0
+        width: 29%
+        max-width:  415px
+        padding: 0
+        font-weight: 700
+        font-size: 44px
+        line-height: 60px
+        align-items: center
+        text-align: left
+        letter-spacing: -0.01em
+        
+    .statistics__subtitle
+        margin-top: 4%
+        width: 25%
+        max-width: 270px
+        font-weight: normal
+        font-size: 24px
+        line-height: 34px
+        letter-spacing: -0.32px
+        text-align: left
+
+    .statistics__info
+        margin-top: 3.5%
+        width: 50%
+        max-width: 530px
+        font-size: 22px
+        line-height: 30px
+        text-align: left

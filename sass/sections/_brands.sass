@@ -1,0 +1,174 @@
+.brands
+    background:#F7F8F9
+    min-height: 213px
+
+.brands__title
+    font-family: TT Commons
+    font-style: normal
+    font-weight: 500
+    font-size: 12px
+    line-height: 26px
+    text-align: center
+    letter-spacing: 1px
+    text-transform: uppercase
+    color: $thirdColor
+    transform: translateX(5px)
+
+.brands__logo-box
+    min-height: 38px
+    display: flex
+    align-items: center
+    justify-content: center
+
+.brands__logo-forbes
+    height: 29px
+.brands__logo-tc
+    height: 29px
+.brands__logo-bi
+    height: 31px
+.brands__logo-mashable
+    height: 22px
+
+.brands__text
+    padding-top: 4px
+    height: 65px
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    color: $mainColor
+    opacity: 0.6
+
+.brands-container
+    padding: 23px 0 0 0
+    max-width: 220px
+    margin: 0 auto
+
+.brands__slider
+   max-height: 115px
+  
+.brands__item
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    height: 115px
+
+.brands__dots 
+    margin: 0 auto
+    margin-top: 16px
+    width: 44px
+    height: 5px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    transform: translateX(-4px)
+    li 
+        list-style: none
+        cursor: pointer
+        width: 3px
+        height: 3px
+        border-radius: 50%
+        background: $mainColor
+        opacity: 0.3
+        button 
+            display: none
+    li.slick-active 
+      opacity: 1
+      width: 5px
+      height: 5px
+    
+  
+
+@media screen and (min-width: 759px) 
+    .brands
+        min-height: 260px
+    .brands-container
+        max-width: 699px
+        margin: 0 auto
+    .brands__slider
+        margin-top: 26px
+    .brands__item
+        height: 120px
+    .brands__item-forbes_position
+        transform: translateX(-5px)
+    .brands__item-bi_position
+        transform: translateX(7px)
+    .brands__text_size
+        max-width: 220px
+    .brands__title
+        margin-top: 7px
+        transform: translateX(2px)
+    .brands__logo-forbes
+        height: 28px
+    .brands__logo-tc
+        height: 23px
+    .brands__logo-bi
+        height: 36px
+    .brands__logo-mashable
+        height: 22px
+    .brands__dots 
+        width: 18px
+
+@media screen and (min-width: 1024px) 
+    .brands
+        min-height: 250px
+    .brands-container
+        max-width: 1105px
+
+@media screen and (min-width: 1800px) 
+    .brands
+        min-height: 300px
+    .brands-container
+        max-width: 1105px
+
+
+
+@media screen and (min-width: 1920px) 
+    .brands
+        min-height: 430px
+    .brands-container
+        max-width: 1360px
+        margin: 0 auto
+        height: 429px
+    .brands__slider
+        margin-top: 53px
+    .brands__item
+        height: 180px
+        width: 100%
+        margin: 0 auto
+    .brands__item-forbes_position
+        transform: translateX(-30px)
+    .brands__item-bi_position
+        transform: translateX(7px)
+    .brands__item-tc_position
+        transform: translateX(-11px)
+        width: 253px
+    .brands__item-mashable_position
+        transform: translateX(35px)
+        width: 260px
+    .brands__text_size
+        max-width: 280px
+    .brands__title
+        margin-top: 41px 
+        font-size: 16px
+    .brands__text 
+        text-align: center
+        margin-top: 32px
+        font-size: 19px
+        line-height: 26px
+        letter-spacing: -0.078px
+        height: 200px
+    .brands__logo-forbes
+        height: 37px
+    .brands__logo-tc
+        height: 34px
+    .brands__logo-bi
+        height: 48px
+    .brands__logo-mashable
+        height: 26px
+    .brands__dots 
+        width: 18px
+

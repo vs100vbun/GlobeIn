@@ -1,36 +1,102 @@
 
-.advantages
-    height: 221px
+.advantages-container
+    width: 90%
+    max-width: 340px
+    margin: 34px auto 48px
     display: flex
-    flex-direction: column
-    .adventege-items
+    align-items: center
+    justify-content: space-between
+
+.advantages__icon-tab 
+     display: none
+
+.advantages__icon
+     display: none  
+
+.advantages__item
+    max-width: 100px
+    text-align: center
+    max-height: 77px
+
+.advantages__text--width
+    max-width: 50px
+
+.advantages__text
+    margin-top: 14px 
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 20px
+    color: $mainColor
+
+.advantages__item--position-mob
+    transform: translateX(-11px)
+
+.advantages__border-line
+    height: 1px
+    width: 89%
+    background-color: #000000
+    opacity: 0.1
+    margin: 0 auto
+
+
+@media screen and (min-width: 759px) 
+    .advantages-container
+        margin: 51px auto 71px
+        max-width: 619px
+        transform: translateX(2%)
+    .advantages__icon-mob
+        display: none
+    .advantages__icon-tab
+        display: inline
+    .advantages__icon
+        display: none
+    .advantages__item
+        max-width: 173px
+    .advantages__text--width
+        max-width: 173px
+    .advantages__text
+        margin-top: 23px
+        font-size: 19px
+        line-height: 26px
+        letter-spacing: -0.078px
+    .advantages__border-line
+        width: 82%
+        height: 2px
+    .advantages__item--position-mob
+        transform: translateX(-14px)
+    .advantages__item--position-tab
+        transform: translateX(11px)
+
+@media screen and (min-width: 1920px) 
+    .advantages-container
+        max-width: 1170px
+        margin: 73px auto 88px
+        transform: translateX(0.5%)
+    .advantages__item
+        max-width: 350px
         display: flex
-        justify-content: space-between
-        width: 100%
-        max-width: 1160px
-        margin: 0 auto
-        margin-top: 81px
-        .item-style
-            display: flex
-            justify-content: space-between
-            align-items: center
-            font-family: TT Commons
-            font-style: normal
-            font-weight: normal
-            color: $mainColor
-            font-size: 28px
-            line-height: 34px
-            letter-spacing: -0.32px
-        .adventege-item1
-            width: 281px
-        .adventege-item2
-            width: 206px
-        .adventege-item3
-            width: 320px
-    .adventage-border__line
-        width: 100%
-        max-width: 1400px
-        margin: 0 auto
-        opacity: 0.1
-        border: 1px solid #000000
-        margin-top: 90px
+        align-items: center
+    .advantages__icon-tab 
+        display: none
+    .advantages__icon-mob
+        display: none  
+    .advantages__icon
+        transform: translateX(10px)
+        transform: translateY(10px)
+        display: inline
+        float: left
+    .advantages__icon--position
+        transform: translate(10px, 4px)
+    .advantages__text--position
+        transform: translate(2px, -5px)
+    .advantages__text
+        margin-left: 28px
+        font-size: 28px
+        line-height: 34px
+        letter-spacing: -0.32px
+        float: left
+    .advantages__border-line
+        width: 72.5%
+        

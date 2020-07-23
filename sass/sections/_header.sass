@@ -1,0 +1,277 @@
+// Header
+.header 
+    width: 100%
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/header/bg-img-mob.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    height: 668px
+
+.header-container
+    width: 90%
+    height: 94%
+    min-width: 340px
+    margin: 0 auto
+
+.navbar 
+    display: flex
+    max-width: 62%
+    min-height: 58px
+    justify-content: space-between
+    align-items: center
+
+.navbar__menu
+    display: flex
+    display: none
+
+.navbar__menu-btn 
+    cursor: pointer
+    transform: translate(9%, -39%)
+    height: 10px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    span 
+        width: 22px
+        border: 1px solid #fff
+
+.navbar__logo
+    display: none
+
+// Content
+.content
+    height: 90%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin-left: 2px
+
+.content__text
+    margin-top: -9px
+    width: 300px
+    height: 40%
+    color: #fff
+
+.content__title
+    max-width: 270px
+    font-family: SangBleu Sunrise
+    font-style: normal
+    font-weight: bold
+    font-size: 26px
+    line-height: 36px
+    
+.content__subtitle
+    margin-top: -7px
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 20px
+
+.content__btn-group
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 340px    
+    
+.content__btn
+    background: $btnColor
+    padding: 18px 39px
+    text-decoration: none
+    border-radius: 8px
+    color: #fff
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 19px
+    line-height: 26px
+    letter-spacing: -0.078px
+.content__btn:hover 
+    box-shadow: 0px 20px 45px rgba(255, 134, 129, 0.25)
+
+.content__btn-title
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 130%
+    color: $mainColor
+
+.content__btn-subtitle
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    letter-spacing: 0.066px
+    color: rgba(85, 63, 63, 0.6)
+
+.red
+    color: red
+
+
+
+// Adaptive
+@media screen and (min-width: 500px)
+    .header 
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/header/bg-img-tab.png)
+        height: 1019.73px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+@media screen and (min-width: 759px)
+    .header 
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/header/bg-img-tab.png)
+        height: 1019.73px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+    .header-container
+        min-width: 705px
+    .navbar__logo-mob
+        display: none
+    .navbar__logo
+        display: inline
+    .navbar
+        max-width: 59%
+        min-height: 78px
+    .navbar__menu-btn 
+        transform: translate(9%, -29%)
+        height: 14px
+        span 
+            width: 32px
+            border: 2px solid #fff
+    .content
+        margin-left: 6%
+    .content__text
+        min-width: 476px
+    .content__title
+        font-family: SangBleu Sunrise
+        font-style: normal
+        font-weight: bold
+        font-size: 44px
+        line-height: 60px
+        letter-spacing: -0.01em
+        min-width: 475px    
+    .content__subtitle
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 22px
+        line-height: 28px
+        margin-top: -16px
+    .content__btn-group
+        max-width: 490px
+    .content__btn
+        padding: 18px 108px
+@media screen and (min-width: 1920px) 
+    .header 
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/header/bg-img.png)
+        height: 1080px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+
+    .navbar__border-line
+        background: #fff
+        width: 2px
+        height: 40px
+        opacity: 0.5
+
+    .header-container
+        max-width: 73%
+
+    .navbar
+        min-height: 90px
+        max-width: 99%
+
+    .navbar__menu
+        display: flex
+        justify-content: space-between
+        order: 2
+        width: 82.5%
+
+    .navbar__menu-btn 
+        display: none
+
+    .navbar__logo
+        order: 1
+
+    .navbar__nav
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 41%
+
+    .navbar__nav-links
+        display: flex
+        justify-content: space-between
+        width: 90%
+
+    .navbar__link
+        text-decoration: none 
+        color: #fff
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 21px
+        line-height: 28px
+        letter-spacing: -0.32px
+    
+    .navbar__sign-up
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 9.5%
+        
+    .navbar__link-position
+        transform: translateX(-5px)
+    
+    .content
+        height: 79.7%
+        margin-left: 0
+        margin-top: 3.3%
+
+    .content__title
+        font-family: SangBleu Sunrise
+        font-style: normal
+        font-weight: 500
+        font-size: 64px
+        line-height: 84px
+        min-width: 645px
+
+    .content__subtitle
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 28px
+        line-height: 34px
+        letter-spacing: -0.32px
+        max-width: 440px
+        margin-top: -9px
+
+    .content__btn-group
+        flex-direction: column
+        max-width: 302px
+        height: 19%
+    .content__btn
+        padding: 20px 95px
+        font-size: 24px
+        line-height: 28px
+        letter-spacing: -0.32px
+
+    .content__btn-text        
+        width: 300px
+        transform: translateY(3px)
+
+    .content__btn-title
+        color: #fff
+        font-style: normal
+        font-weight: normal
+        font-size: 22px
+        line-height: 130%
+
+    .content__btn-subtitle
+        color: #fff
+        font-size: 18px
+        line-height: 128.2%

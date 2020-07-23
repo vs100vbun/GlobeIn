@@ -1,53 +1,69 @@
-// Grid settings
-@import 'grid'
-    
-// Fonts settings
+* 
+    box-sizing: border-box
+    margin: 0   
+    padding: 0
+
+// Fonts variables
 @import 'fonts'
 
-// Colors settings
+// Colors variables
 @import 'colors'
 
 // Header style
-@import 'sections/navbar'
+@import 'sections/header'
 
-// Hero style
-@import 'sections/hero'
-
-// Brand style
-@import 'sections/brand'
+// Brands style
+@import 'sections/brands'
 
 // Advantages style
 @import 'sections/advantages'
 
-// Box-themes style
-@import 'sections/box-themes'
+// Boxes style
+@import 'sections/boxes'
 
-// Guide style
-@import 'sections/guide'
+// Inside style
+@import 'sections/inside'
 
-// Banner style
-@import 'sections/banner'
+// info style
+@import 'sections/info'
 
-// People style
-@import 'sections/people'  
+// Members style
+@import 'sections/members'
 
 // Statistics style
 @import 'sections/statistics'
 
-// HowItWork style
-@import 'sections/howitwork'
+// Instruction style
+@import 'sections/instruction'
 
-// Create style
-@import 'sections/create'
+// Section names style
+.section_name
+    font-family: SangBleu Sunrise
+    font-style: normal
+    font-weight: bold
+    font-size: 20px
+    line-height: 29px
+    text-align: center
+    letter-spacing: -0.01em
+    color: $mainColor
 
-// Enjoy style
-@import 'sections/enjoy'
+@media screen and (min-width: 759px)
+    .section_name
+        font-family: SangBleu Sunrise
+        font-style: normal
+        font-weight: bold
+        font-size: 28px
+        line-height: 30px
+        text-align: center
+        color: $mainColor
 
-// Community style
-@import 'sections/community'
-
-// Story style
-@import 'sections/story'
-
-// Footer style
-@import 'sections/footer'
+@media screen and (min-width: 1920px)
+    .section_name
+        font-family: SangBleu Sunrise
+        font-style: normal
+        font-weight: 700
+        font-size: 44px
+        line-height: 60px
+        text-align: center
+        letter-spacing: -0.01em
+        color: $mainColor
