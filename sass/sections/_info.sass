@@ -1,0 +1,250 @@
+.info
+    padding: 12.5% 0
+    overflow: hidden
+
+.info-container
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/info/info-bg-mob.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 90%
+    min-width: 340px
+    height: 600px
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    border-radius: 10px
+    padding: 30px
+    
+.info__text-box
+    height: 82%
+
+.info__text
+    min-width: 280px
+    margin: 0 auto
+    font-family: SangBleu Sunrise
+    font-style: normal
+    font-weight: 700
+    font-size: 20px
+    line-height: 30px
+    color: $mainColor
+
+.info__img-box
+    width: 90%
+    height: 60%
+    min-width: 280px
+    margin: auto 
+    display: flex
+    align-items: center
+
+.info__img
+    transform: translate(-4%, -5%)
+    margin: 0 auto
+    width: 305px
+    height: 226px
+
+
+.info__btn-box
+    margin: 0 auto
+
+.info__get-box
+    height: 18%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+.info__btn
+    background: #fff
+    color: $mainColor
+    padding: 16px 98px
+    text-decoration: none
+    border-radius: 8px
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 19px
+    line-height: 26px
+    letter-spacing: -0.078px
+.content__btn:hover 
+    box-shadow: 0px 20px 45px rgba(255, 134, 129, 0.25)
+
+.info__get-title
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 19px
+    line-height: 26px
+    text-align: center
+    letter-spacing: -0.078px
+    color: $mainColor
+
+.info__get-subtitle
+    font-family: TT Commons
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    letter-spacing: 0.066px
+    color: rgba(85, 63, 63, 0.6)
+
+.info__get-title_position
+    transform: translateY(12%)
+
+@media screen and (min-width: 759px)
+    .info
+        padding: 12% 0
+        padding-bottom: 6.5%
+    .info-container
+        transform: translateX(-0.5%)
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/info/info-bg-tab.png)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        width: 91%
+        height: 400px
+    .info__text-box
+        display: flex
+        position: relative
+    .info__get-box
+        flex-direction: row
+    .info__img
+        position: absolut
+        width: 391px
+        height: 290px
+    .info__text
+        margin: 21px 0px  
+        width: 44%
+    .info__text-box
+        position: relative
+    .info__img-box
+        position: absolute
+        left: 38%
+        top: 10%
+    .info__btn-box
+        margin: 0
+    .info__get-box
+        width: 80%
+    .info__btn
+        padding: 18px 115px
+        font-size: 20px
+        line-height: 132.5%
+    .info__get-box-text
+        transform: translateY(-12%)
+    .info__get-subtitle
+        text-align: left
+
+
+@media screen and (min-width: 1920px)
+    .info-container
+        transform: translateX(-0.5%)
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/info/info-bg.png)
+        background-repeat: no-repeat
+        background-size: cover
+        width: 73%
+        height: 
+    .info
+        padding: 5% 0
+        padding-bottom: 6%
+        overflow: hidden
+    .info__get-box
+        width: 47%
+        margin-top: 0
+        margin-left: 4%
+
+    .info__text
+        margin: 41px 60px  
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 28px
+        line-height: 34px
+        letter-spacing: -0.32px
+        max-width: 45%
+        height: 40%
+    .info__text-box
+        position: relative
+        height: 70%
+    .info__img-box
+        position: absolute
+        left: 40%
+        top: 54%
+    .info__img
+        width: 670px 
+        height: 500px
+    .info__get-title 
+        font-size: 24px
+        line-height: 130%
+    .info__get-subtitle
+        font-size: 18px
+        line-height: 128.2%
+    .info__btn
+        padding: 22px 126px
+        font-size: 24px
+        line-height: 28px
+        text-align: center
+        letter-spacing: -0.32px
+    .info__get-box-text
+        transform: translateX(-9%)
+        margin-top: -2%
+        text-align: left
+    .info__get-subtitle
+        text-align: left
+
+@media screen and (min-width: 1200px)
+    .info-container
+        transform: translateX(-0.5%)
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 24.22%, rgba(0, 0, 0, 0) 94.93%), url(../../img/info/info-bg.png)
+        background-repeat: no-repeat
+        background-size: cover
+        width: 73%
+        height: 
+    .info
+        padding: 5% 0
+        padding-bottom: 6%
+        overflow: hidden
+    .info__get-box
+        width: 51%
+        margin-top: 0
+
+    .info__text
+        margin: 41px 60px  
+        font-family: TT Commons
+        font-style: normal
+        font-weight: normal
+        font-size: 28px
+        line-height: 34px
+        letter-spacing: -0.32px
+        max-width: 45%
+        height: 40%
+    .info__text-box
+        position: relative
+        height: 70%
+    .info__img-box
+        position: absolute
+        left: 40%
+        top: 54%
+    .info__img
+        width: 670px 
+        height: 500px
+    .info__get-title 
+        font-size: 24px
+        line-height: 130%
+    .info__get-subtitle
+        font-size: 18px
+        line-height: 128.2%
+    .info__btn
+        padding: 22px 126px
+        font-size: 24px
+        line-height: 28px
+        text-align: center
+        letter-spacing: -0.32px
+    .info__get-box-text
+        transform: translateX(-9%)
+        margin-top: -2%
+        text-align: left
+    .info__get-subtitle
+        text-align: left
+
+
+        
